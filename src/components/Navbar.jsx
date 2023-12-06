@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const isRouteActive = (path) => {
     // Check if the current route matches the given path
-    return location.pathname === path ? "font-bold " : "";
+    return location.pathname === path ? "font-bold text-[#05CF91]" : "";
   };
 
   return (
@@ -26,9 +26,6 @@ const Navbar = () => {
         </Link>
         <Link to="/about" className={isRouteActive("/about")}>
           About Us
-        </Link>
-        <Link to="/portfolio" className={isRouteActive("/portfolio")}>
-          Portfolio
         </Link>
         <Link to="/services" className={isRouteActive("/services")}>
           Our Services

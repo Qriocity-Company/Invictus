@@ -49,37 +49,36 @@ const Testimonials = () => {
       <div className="testimonial-container">
         <div className="outer-container">
           <div className="slideshow-container flex lg:gap-28 gap-3 items-center">
-            <a className="prev text-[24px] md:text-[48px]" onClick={() => minusSlide(-1)}>
+            <a
+              className="prev text-[24px] md:text-[48px]"
+              onClick={() => minusSlide(-1)}
+            >
               &#10094;
             </a>
             <div className="mySlides fade font-Poppins">
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
                   <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-xl md:text-2xl not-italic font-semibold leading-[normal]">
-                    It was a very good experience{" "}
+                    Increased website traffic by 300%{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px]  text-[#303030] text-center text-base not-italic font-normal leading-[normal]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Cursus nibh mauris, nec turpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu. Elementum felis magna pretium
-                    in tincidunt. Suspendisse sed magna eget nibh in turpis.
-                    Consequat duis diam lacus arcu. urpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu.
+                    Anvictus Global Tech helped us completely revamp our website
+                    and digital marketing strategy. Within just 6 months, we've
+                    seen a 300% increase in website traffic and a significant
+                    boost in leads and conversions. We're thrilled with the
+                    results and highly recommend Anvictus to any business
+                    looking to grow online.
                   </p>
                 </div>
                 <div className="credentials flex flex-col items-center mt-10">
                   <p className="flex flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                    Andreq Jackson
+                    Sarah Jones
                   </p>
                   <span className="shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Founder
+                    CEO
                   </span>
                   <p className=" shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Company Name
+                    Acme Corporation
                   </p>
                 </div>
                 <div className="dot-div">
@@ -94,30 +93,25 @@ const Testimonials = () => {
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
                   <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-2xl not-italic font-semibold leading-[normal]">
-                    Enjoyable  experience{" "}
+                    Delivered a seamless and successful mobile app launch{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px] text-[#303030] text-center text-base not-italic font-normal leading-[normal]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Cursus nibh mauris, nec turpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu. Elementum felis magna pretium
-                    in tincidunt. Suspendisse sed magna eget nibh in turpis.
-                    Consequat duis diam lacus arcu. urpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu.
+                    We needed a reliable partner to develop our new mobile app.
+                    Anvictus Global Tech exceeded our expectations with their
+                    expertise, communication, and commitment to delivering a
+                    high-quality product. The app launch was a huge success, and
+                    we are grateful for Anvictus's efforts.
                   </p>
                 </div>
                 <div className="credentials flex flex-col items-center mt-10">
                   <p className="flex flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                    Andreq Jackson
+                    David Lee
                   </p>
                   <span className="shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Founder
+                    CEO
                   </span>
                   <p className=" shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Company Name
+                    AppVentures
                   </p>
                 </div>
               </div>
@@ -127,35 +121,33 @@ const Testimonials = () => {
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
                   <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-2xl not-italic font-semibold leading-[normal]">
-                    Best so far {" "}
+                    Achieved a 20% increase in sales within 3 months{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px] text-[#303030] text-center text-base not-italic font-normal leading-[normal]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Cursus nibh mauris, nec turpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu. Elementum felis magna pretium
-                    in tincidunt. Suspendisse sed magna eget nibh in turpis.
-                    Consequat duis diam lacus arcu. urpis orci lectus maecenas.
-                    Suspendisse sed magna eget nibh in turpis. Consequat duis
-                    diam lacus arcu. Faucibus venenatis felis id augue sit
-                    cursus pellentesque enim arcu.
+                    We were struggling to reach our target audience online and
+                    generate leads. Anvictus Global Tech developed a targeted
+                    B2B marketing campaign that has exceeded our expectations.
+                    Within just 3 months, we've achieved a 20% increase in sales
+                    and are continuing to see positive results.
                   </p>
                 </div>
                 <div className="credentials flex flex-col items-center mt-10">
                   <p className="flex flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                    Andreq Jackson
+                    John Smith
                   </p>
                   <span className="shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Founder
+                    Marketing Manager
                   </span>
                   <p className=" shrink-0 text-white text-xl not-italic font-normal leading-[normal]">
-                    Company Name
+                    Tech Solutions Inc
                   </p>
                 </div>
               </div>
             </div>
-            <a className="next text-[24px] md:text-[48px] " onClick={() => plusSlides(1)}>
+            <a
+              className="next text-[24px] md:text-[48px] "
+              onClick={() => plusSlides(1)}
+            >
               &#10095;
             </a>
           </div>

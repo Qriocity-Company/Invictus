@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../assets/header.gif";
+import { Link } from "react-router-dom";
 export const Hero = () => {
   return (
     <div className="flex flex-row justify-center items-center">
@@ -13,12 +14,12 @@ export const Hero = () => {
           innovative moment marketing with impactful growth consulting to align
           with and amplify your brand's vision.
         </p>
-        <a href="/contact">
+        <Link to="/contact">
           {" "}
           <button className="text-[#00251A]  self-start mt-10 px-6 py-3 bg-gradient-to-r from-[#019267] to-[#06E19D] rounded-lg font-semibold ">
             Let's Connect
           </button>
-        </a>
+        </Link>
       </div>
       <div>
         <img

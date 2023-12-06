@@ -17,8 +17,8 @@ const AboutUs = () => {
           <span className=" justify-center text-[#019267] text-xl italic font-medium leading-[34px]">
             Who are we.
           </span>
-          <h3 className=" md:w-[400px] w-[300px] lg:w-[666px] lg:h-[202px] justify-center shrink-0 relative text-black lg:text-5xl md:text-3xl text-xl  not-italic font-bold leading-[normal]">
-            We’re a digital agency based in Valencia.
+          <h3 className=" md:w-[400px] w-[300px] lg:w-[666px] lg:h-[202px] justify-center shrink-0 relative text-black lg:text-5xl md:text-3xl text-xl  not-italic font-bold ">
+            We’re a digital agency based in Chennai.
             <hr className="border-[3px] border-[#06E19D] w-[20%] mb-10 rounded-full  absolute  md:left-56 left-14" />
           </h3>
           <p className="md:w-[400px] w-[300px]  lg:w-[603px] h-[164px] flex-col justify-center shrink-0 text-black  text-base md:text-2xl not-italic font-medium leading-[normal]">
@@ -29,8 +29,12 @@ const AboutUs = () => {
         </div>
 
         <div className="relative hidden md:flex">
-          <img src={about1} alt="" className=" md:w-[200px] lg:w-[400px]"/>
-          <img src={about2} alt="" className="absolute top-[50%] left-[50%] animated-img md:w-[200px] lg:w-[400px] " />
+          <img src={about1} alt="" className=" md:w-[200px] lg:w-[400px]" />
+          <img
+            src={about2}
+            alt=""
+            className="absolute top-[50%] left-[50%] animated-img md:w-[200px] lg:w-[400px] "
+          />
         </div>
 
         <div className=" flex flex-col w-[300px] md:w-[650px] lg:w-[1280px] mx-24  h-[387px] shrink-0 rounded-[25px] absolute -left-[20%]  md:-left-[6%] lg:left-[2%] top-[95%]  bg-gradient-to-r from-[#019267] to-[#06E19D] z-10 justify-center items-center">
@@ -58,53 +62,61 @@ const AboutUs = () => {
           <div className="flex flex-col gap-16">
             <section className="animated-service flex flex-col items-start justify-center gap-3">
               <img src={ic1} alt="" />
-              <p className="flex w-[232px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                Self paced courses
+              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+                Search engine optimization (SEO)
               </p>
               <span
-                className="flex w-[325px] h-[63px] flex-col justify-center shrink-0
+                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
                 text-white text-base not-italic font-normal leading-[34px]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Improve your organic search ranking and increase website
+                visibility to attract qualified leads.
               </span>
             </section>
 
             <section className="animated-service1 flex flex-col items-start justify-center gap-4">
               <img src={ic2} alt="" />
-              <p className="flex w-[232px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                Self paced courses
+              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+                Content marketing
               </p>
               <span
-                className="flex w-[325px] h-[63px] flex-col justify-center shrink-0
+                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
                 text-white text-base not-italic font-normal leading-[34px]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Develop valuable and engaging content that educates your
+                audience, positions you as an industry leader, and builds brand
+                loyalty.
               </span>
             </section>
 
             <section className="animated-service2 flex flex-col items-start justify-center gap-4">
               <img src={ic3} alt="" />
-              <p className="flex w-[232px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                Self paced courses
+              <p className="flex w-[532px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+               Strong and Consistent Brand Identity
               </p>
               <span
-                className="flex w-[325px] h-[63px] flex-col justify-center shrink-0
+                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
                 text-white text-base not-italic font-normal leading-[34px]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Brand strategy and messaging: Define your brand essence, develop
+                a compelling narrative, and establish a consistent voice across
+                all touchpoints.
               </span>
             </section>
 
             <section className="animated-service3 flex flex-col items-start justify-center gap-4">
               <img src={ic4} alt="" />
-              <p className="flex w-[232px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
-                Self paced courses
+              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal] mb-4">
+                Gain a Competitive Advantage
               </p>
               <span
-                className="flex w-[325px] h-[63px] flex-col justify-center shrink-0
+                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0 
                 text-white text-base not-italic font-normal leading-[34px]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Stay ahead of the latest trends and technologies: We constantly
+                research and invest in the latest marketing and development
+                tools and techniques to ensure you have access to the best
+                solutions
               </span>
             </section>
           </div>

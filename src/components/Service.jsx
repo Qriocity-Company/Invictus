@@ -4,6 +4,7 @@ import ui from "../assets/ui-ux.gif";
 import brand from "../assets/brand.gif";
 import digita from "../assets/digital.gif";
 import b2b from "../assets/b2b.gif";
+import { Link } from "react-router-dom";
 const Service = () => {
   return (
     <div className=" mt-20">
@@ -36,14 +37,15 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Website & App development
             </span>
-            <p className=" w-[300px] md:w-[405px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className=" w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+              We build intuitive and engaging web and mobile applications that
+              deliver exceptional user experiences and drive results.
             </p>
             <button className="flex  text-black py-2 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
-            <a href="/services" className="flex gap-2 ">
+              <Link to="/services" className="flex gap-2 ">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
-              </a>
+              </Link>
             </button>
           </div>
           <img
@@ -58,14 +60,15 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Branding 
             </span>
-            <p className="w-[300px] md:w-[405px]h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+              We develop compelling brand identities that capture the essence of
+              your business and resonate with your target audience.
             </p>
             <button className="flex  text-black py-2 items-center hover:cursor-pointer hover:text-[#019267]">
-              <a href="/services" className="flex gap-2 ">
+              <Link to="/services" className="flex gap-2 ">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
-              </a>
+              </Link>
             </button>
           </div>
           <img
@@ -80,14 +83,16 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Digital Marketing
             </span>
-            <p className="w-[300px] md:w-[405px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+              We leverage the power of digital marketing to reach your target
+              audience and drive conversions. We develop data-driven strategies
+              that maximize your marketing ROI.
             </p>
             <button className="flex  text-black py-2 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
-            <a href="/services" className="flex gap-2 ">
+              <Link to="/services" className="flex gap-2 ">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
-              </a>
+              </Link>
             </button>
           </div>
           <img
@@ -102,14 +107,15 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               B2B Marketing
             </span>
-            <p className="w-[300px] md:w-[405px]  h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className="w-[300px] md:w-[605px]  h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+              We understand the unique challenges of B2B marketing and tailor
+              our strategies accordingly.
             </p>
             <button className="flex  text-black py-2 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
-            <a href="/services" className="flex gap-2 ">
+              <Link to="/services" className="flex gap-2 ">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
-              </a>
+              </Link>
             </button>
           </div>
           <img

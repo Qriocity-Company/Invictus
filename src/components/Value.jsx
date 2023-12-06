@@ -49,9 +49,11 @@ const Value = () => {
                 alt=""
                 className=" lg:w-[151px] h-[75px] w-[75px] lg:h-[151px] shrink-0"
               />
-              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px] lg:text-xl not-italic font-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px] lg:text-[16px] not-italic font-normal">
+                We are committed to providing our clients with exceptional
+                service that exceeds expectations. We believe in building strong
+                relationships based on mutual trust and respect, and we always
+                go the extra mile to ensure their satisfaction.
               </span>
             </section>
           ) : (
@@ -64,9 +66,12 @@ const Value = () => {
                 alt=""
                 className=" lg:w-[151px] h-[75px] w-[75px] lg:h-[151px] shrink-0"
               />
-              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px] lg:text-xl not-italic font-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px]  lg:text-[16px] not-italic font-normal">
+                We are never satisfied with the status quo. We are constantly
+                striving to improve our services, processes, and technologies to
+                deliver even greater value to our clients. We encourage
+                innovation and creativity, and we are always open to feedback
+                and new ideas.
               </span>
             </section>
           ) : (
@@ -79,9 +84,12 @@ const Value = () => {
                 alt=""
                 className=" lg:w-[151px] h-[75px] w-[75px] lg:h-[151px] shrink-0"
               />
-              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px] lg:text-xl not-italic font-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+              <span className=" w-[300px] lg:w-[517px] lg:h-24 flex-col justify-center shrink-0 text-black text-[12px]  lg:text-[16px] not-italic font-normal">
+                We believe in open, honest, and transparent communication with
+                our clients, partners, employees, and stakeholders. We are
+                committed to keeping everyone informed and involved in the
+                decision-making process. We actively listen to concerns and
+                feedback, and we value open dialogue and collaboration.
               </span>
             </section>
           ) : (

@@ -16,8 +16,8 @@ const OurServices = () => {
           </span>
 
           <p className=" text-black md:text-lg lg:text-xl not-italic font-medium lg:leading-[34px] w-[250px] md:w-full">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam
-            veniam aliquam sit et. Ipsum quisquam repellat
+            We build intuitive and engaging web and mobile applications that
+            deliver exceptional user experiences and drive results.
           </p>
           <ul className="lg:w-[339px] lg:h-[203px] shrink-0 text-black text-[14px] lg:text-base not-italic font-normal leading-4 md:leading-5 lg:leading-[34px]">
             <li>• Website Design & Development</li>
@@ -43,8 +43,8 @@ const OurServices = () => {
           </span>
 
           <p className=" text-black md:text-lg lg:text-xl not-italic font-medium lg:leading-[34px] w-[250px] md:w-full">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam
-            veniam aliquam sit et. Ipsum quisquam repellat
+            We develop compelling brand identities that capture the essence of
+            your business and resonate with your target audience.
           </p>
           <ul className="lg:w-[339px] lg:h-[203px] shrink-0 text-black text-[14px] lg:text-base not-italic font-normal leading-4 md:leading-5 lg:leading-[34px]">
             <li> •Brand Strategy & Messaging</li>
@@ -58,7 +58,7 @@ const OurServices = () => {
       </div>
 
       <div className="animated-service w-[280px] md:w-[600px] lg:w-[1087px]  h-[500px]  lg:h-[600px] bg-white shrink-0 rounded-l-[50px] flex justify-between  md:pl-2 lg:pl-10 py-5 self-end lg:mr-10 ">
-        <div className="flex flex-col gap-4 justify-center ml-5">
+        <div className="flex flex-col gap-4 justify-start ml-5">
           <span className="text-[#019267] text-[20px] md:text-2xl lg:text-4xl italic font-light leading-[normal] flex items-baseline">
             <h1 className="text-[#019267] text-[28px] md:text-[32px] lg:text-[50px] font-bold leading-[normal]">
               D
@@ -66,12 +66,12 @@ const OurServices = () => {
             igital Marketing
           </span>
           <p className=" text-black md:text-lg lg:text-xl not-italic font-medium lg:leading-[34px] w-[250px] md:w-full">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam
-            veniam aliquam sit et. Ipsum quisquam repellat
+            We leverage the power of digital marketing to reach your target
+            audience and drive conversions. We develop data-driven strategies
+            that maximize your marketing ROI.
           </p>
           <ul className="lg:w-[339px] lg:h-[203px] shrink-0 text-black text-[14px] lg:text-base not-italic font-normal leading-4 md:leading-5 lg:leading-[34px]">
-            <li>• Social Media Marketing</li>
-            <li>• Performance Marketing </li>
+            <li>• Social Media and Performance  Marketing</li>
             <li>
               • Search Engine Optimization (SEO) SMO SOCIAL MEDIA OPTIMIZATION 
               SEM - SEARCH ENGINE MARKETING {" "}
@@ -85,10 +85,10 @@ const OurServices = () => {
             <li>• Analytics & Data Insight</li>
           </ul>
         </div>
-        <img src={service3} alt="" className="hidden lg:flex" />
+        <img src={service3} alt="" className="hidden lg:flex  w-[500px] " />
       </div>
       <div className="animated-service1 w-[280px] md:w-[600px] lg:w-[1087px]  h-[400px]  lg:h-[550px] bg-white gap-20 rounded-r-[50px] flex justify-between  pl-3 lg:pl-10 py-5 ml-10">
-        <img src={service4} alt=""  className=" lg:flex hidden"/>
+        <img src={service4} alt="" className=" lg:flex hidden" />
         <div className="flex flex-col gap-4 justify-center ml-5">
           <span className="text-[#019267] text-[20px] md:text-2xl lg:text-4xl italic font-light leading-[normal] flex items-baseline">
             <h1 className="text-[#019267] text-[28px] md:text-[32px] lg:text-[50px] font-bold leading-[normal]">
@@ -98,8 +98,8 @@ const OurServices = () => {
           </span>
 
           <p className=" text-black md:text-lg lg:text-xl not-italic font-medium lg:leading-[34px] w-[250px] md:w-full">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam
-            veniam aliquam sit et. Ipsum quisquam repellat
+            We understand the unique challenges of B2B marketing and tailor our
+            strategies accordingly.
           </p>
           <ul className="lg:w-[339px] lg:h-[203px] shrink-0 text-black text-[14px] lg:text-base not-italic font-normal leading-4 md:leading-5 lg:leading-[34px]">
             <li> • LinkedIn Social Selling</li>
