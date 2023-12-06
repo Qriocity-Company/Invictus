@@ -88,8 +88,7 @@ const Value = () => {
                 We believe in open, honest, and transparent communication with
                 our clients, partners, employees, and stakeholders. We are
                 committed to keeping everyone informed and involved in the
-                decision-making process. We actively listen to concerns and
-                feedback, and we value open dialogue and collaboration.
+                decision-making process.
               </span>
             </section>
           ) : (

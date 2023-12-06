@@ -62,12 +62,12 @@ const AboutUs = () => {
           <div className="flex flex-col gap-16">
             <section className="animated-service flex flex-col items-start justify-center gap-3">
               <img src={ic1} alt="" />
-              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+              <p className="flex w-[300px] md:w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-lg not-italic font-medium leading-[normal]">
                 Search engine optimization (SEO)
               </p>
               <span
-                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
-                text-white text-base not-italic font-normal leading-[34px]"
+                className="flex w-[300px] md:w-[432px] h-[63px] flex-col justify-center shrink-0
+                text-white text-sm not-italic font-normal leading-[24px]"
               >
                 Improve your organic search ranking and increase website
                 visibility to attract qualified leads.
@@ -76,12 +76,12 @@ const AboutUs = () => {
 
             <section className="animated-service1 flex flex-col items-start justify-center gap-4">
               <img src={ic2} alt="" />
-              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+              <p className="flex w-[300px] md:w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-lg md:text-xl not-italic font-medium leading-[normal]  md:mb-2">
                 Content marketing
               </p>
               <span
-                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
-                text-white text-base not-italic font-normal leading-[34px]"
+                className="flex w-[300px] md:w-[432px] h-[63px] flex-col justify-center shrink-0
+                text-white text-sm not-italic font-normal leading-[24px]"
               >
                 Develop valuable and engaging content that educates your
                 audience, positions you as an industry leader, and builds brand
@@ -91,12 +91,12 @@ const AboutUs = () => {
 
             <section className="animated-service2 flex flex-col items-start justify-center gap-4">
               <img src={ic3} alt="" />
-              <p className="flex w-[532px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal]">
+              <p className="flex w-[300px] md:w-[432px] flex-col justify-center shrink-0 text-white text-lg md:text-xl  not-italic font-medium leading-[normal] md:mb-2">
                Strong and Consistent Brand Identity
               </p>
               <span
-                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0
-                text-white text-base not-italic font-normal leading-[34px]"
+                className="flex w-[300px] md:w-[432px] h-[63px] flex-col justify-center shrink-0
+                text-white text-sm not-italic font-normal leading-[24px]"
               >
                 Brand strategy and messaging: Define your brand essence, develop
                 a compelling narrative, and establish a consistent voice across
@@ -106,12 +106,12 @@ const AboutUs = () => {
 
             <section className="animated-service3 flex flex-col items-start justify-center gap-4">
               <img src={ic4} alt="" />
-              <p className="flex w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-2xl not-italic font-medium leading-[normal] mb-4">
+              <p className="flex w-[300px] md:w-[432px] h-[45px] flex-col justify-center shrink-0 text-white text-lg md:text-xl not-italic font-medium leading-[normal] md:mb-2">
                 Gain a Competitive Advantage
               </p>
               <span
-                className="flex w-[425px] h-[63px] flex-col justify-center shrink-0 
-                text-white text-base not-italic font-normal leading-[34px]"
+                className="flexw-[300px] md:w-[432px] h-[63px] flex-col justify-center shrink-0 
+                text-white text-sm not-italic font-normal leading-[24px]"
               >
                 Stay ahead of the latest trends and technologies: We constantly
                 research and invest in the latest marketing and development

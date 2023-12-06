@@ -58,7 +58,7 @@ const Testimonials = () => {
             <div className="mySlides fade font-Poppins">
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
-                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-xl md:text-2xl not-italic font-semibold leading-[normal]">
+                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-[16px] md:text-2xl not-italic font-semibold leading-[normal]">
                     Increased website traffic by 300%{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px]  text-[#303030] text-center text-base not-italic font-normal leading-[normal]">
@@ -92,7 +92,7 @@ const Testimonials = () => {
             <div className="mySlides fade">
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
-                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-2xl not-italic font-semibold leading-[normal]">
+                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-[16px] not-italic font-semibold leading-[normal]">
                     Delivered a seamless and successful mobile app launch{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px] text-[#303030] text-center text-base not-italic font-normal leading-[normal]">
@@ -120,7 +120,7 @@ const Testimonials = () => {
             <div className="mySlides fade">
               <div className="content flex  flex-col items-center ">
                 <div className="flex w-[300px] md:w-[633px] flex-col items-center gap-[29px] pt-[42px] pb-[46px] px-[31px] rounded-xl bg-white">
-                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-2xl not-italic font-semibold leading-[normal]">
+                  <span className="w-[250px] md:w-[499px] h-[31px] text-[#303030] text-center text-[16px] not-italic font-semibold leading-[normal]">
                     Achieved a 20% increase in sales within 3 months{" "}
                   </span>
                   <p className="w-[280px] md:w-[571px] md:h-[213px] text-[#303030] text-center text-base not-italic font-normal leading-[normal]">

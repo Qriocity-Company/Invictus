@@ -56,9 +56,7 @@ const Navbar = () => {
           <Link to="/about" className={isRouteActive("/about")} onClick={toggleMenu}>
             About Us
           </Link>
-          <Link to="/portfolio" className={isRouteActive("/portfolio")} onClick={toggleMenu}>
-            Portfolio
-          </Link>
+          
           <Link to="/services" className={isRouteActive("/services")} onClick={toggleMenu}>
             Our Services
           </Link>

@@ -37,7 +37,7 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Website & App development
             </span>
-            <p className=" w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+            <p className=" w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal md:leading-[34px]">
               We build intuitive and engaging web and mobile applications that
               deliver exceptional user experiences and drive results.
             </p>
@@ -60,7 +60,7 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Branding 
             </span>
-            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal md:leading-[34px]">
               We develop compelling brand identities that capture the essence of
               your business and resonate with your target audience.
             </p>
@@ -83,10 +83,9 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Digital Marketing
             </span>
-            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+            <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal md:leading-[34px]">
               We leverage the power of digital marketing to reach your target
-              audience and drive conversions. We develop data-driven strategies
-              that maximize your marketing ROI.
+              audience and drive conversions. 
             </p>
             <button className="flex  text-black py-2 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
               <Link to="/services" className="flex gap-2 ">
@@ -107,7 +106,7 @@ const Service = () => {
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               B2B Marketing
             </span>
-            <p className="w-[300px] md:w-[605px]  h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal leading-[34px]">
+            <p className="w-[300px] md:w-[605px]  h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal md:leading-[34px]">
               We understand the unique challenges of B2B marketing and tailor
               our strategies accordingly.
             </p>
