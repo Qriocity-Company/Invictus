@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import letTalk from "../assets/letstalk.svg";
 import getintouch from "../assets/getintouch.svg";
 
 const ContactUs = () => {
+
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const [formData, setFormData] = useState({
     username: "",
     email: "",

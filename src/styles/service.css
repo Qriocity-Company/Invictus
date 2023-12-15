@@ -1,0 +1,40 @@
+.scroll-parent{
+    height: 15vh;
+    position: relative;
+    overflow: hidden;
+    /* width: 100vw; */
+}
+
+.scroll-element{
+    /* width: 100vw; */
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+  }
+  
+  .primary {
+    animation: primary 7s linear infinite;
+  }
+  
+  .secondary {
+    animation: secondary 7s linear infinite;
+  }
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }

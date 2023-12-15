@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import about1 from "../assets/about1.png";
 import about2 from "../assets/about2.png";
 import ic1 from "../assets/icon1.svg";
@@ -10,6 +10,12 @@ import abtImg2 from "../assets/about-img2.png";
 import Value from "../components/Value";
 
 const AboutUs = () => {
+
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="flex flex-col gap-20 my-20 w-[350px] md:w-[750px] lg:w-[1600px] justify-center  items-center font-Poppins">
       <div className="relative lg:w-[1600px] lg:h-[1000px] md:w-[750px] w-[350px] md:h-[750px] h-[500px] shrink-0 bg-white justify-start gap-10 items-center flex ">

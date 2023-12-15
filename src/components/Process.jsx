@@ -21,7 +21,7 @@ const Process = () => {
             Research
           </h2>
         </div>
-        <p className="lg:w-[381px] h-[71px] w-[200px] md:w-[280px]  shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
+        <p className="lg:w-[381px] h-full md:h-[71px] w-[200px] md:w-[280px]  shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
           Analyzing your brand and market to craft a tailored online strategy.
         </p>
       </div>
@@ -36,7 +36,7 @@ const Process = () => {
             Concept
           </h2>
         </div>
-        <p className="lg:w-[381px] h-[71px] w-[200px] md:w-[280px]  shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
+        <p className="lg:w-[381px] h-full md:h-[71px] w-[200px] md:w-[280px]  shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
           Designing unique branding, campaigns, and platforms to set you apart.
         </p>
       </div>
@@ -51,7 +51,7 @@ const Process = () => {
             Implement
           </h2>
         </div>
-        <p className="lg:w-[381px]  w-[200px] md:w-[280px]  h-[71px] shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
+        <p className="lg:w-[381px]  w-[200px] md:w-[280px]  h-full md:h-[71px] shrink-0 text-white  lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
           Executing data-driven solutions for maximum online impact and
           conversions.
         </p>
@@ -67,7 +67,7 @@ const Process = () => {
             Handover
           </h2>
         </div>
-        <p className="lg:w-[381px] h-[71px] w-[200px] md:w-[280px] shrink-0 text-white lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
+        <p className="lg:w-[381px] h-full md:h-[71px] w-[200px] md:w-[280px] shrink-0 text-white lg:text-2xl md:text-[18px] text-[12px] not-italic font-normal leading-[38px]">
           Delivering optimized digital assets with training for your continued
           success.
         </p>

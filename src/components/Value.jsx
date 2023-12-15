@@ -43,7 +43,7 @@ const Value = () => {
         </div>
         <div>
           {curr == 1 ? (
-            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-10 items-start p-10 bg-gradient-to-b from-[#019267] to-[#06E19D]">
+            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-10 items-start p-10 py-28 bg-gradient-to-b from-[#019267] to-[#06E19D]">
               <img
                 src={person}
                 alt=""
@@ -60,7 +60,7 @@ const Value = () => {
             ""
           )}
           {curr == 2 ? (
-            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-10 items-start p-10 bg-gradient-to-b from-[#019267] to-[#06E19D]">
+            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-4 items-start p-10 py-28 bg-gradient-to-b from-[#019267] to-[#06E19D]">
               <img
                 src={infi}
                 alt=""
@@ -78,7 +78,7 @@ const Value = () => {
             ""
           )}
           {curr == 3 ? (
-            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-10 items-start p-10 bg-gradient-to-b from-[#019267] to-[#06E19D]">
+            <section className=" w-[350px] h-[180px] lg:w-[611px] lg:h-[350px] shrink-0 rounded-[15px] justify-center flex flex-col gap-1 lg:gap-10 items-start p-10 py-28 bg-gradient-to-b from-[#019267] to-[#06E19D]">
               <img
                 src={video}
                 alt=""

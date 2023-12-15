@@ -5,34 +5,63 @@ import brand from "../assets/brand.gif";
 import digita from "../assets/digital.gif";
 import b2b from "../assets/b2b.gif";
 import { Link } from "react-router-dom";
+import '../styles/service.css'
+
 const Service = () => {
   return (
     <div className=" mt-20">
-      <div className="hidden lg:flex  flex-row w-full justify-between px-20 py-6 bg-gradient-to-r from-[#019267] to-[#06E19D]">
-        <h1 className="text-black text-[24px] font-bold flex items-center gap-16">
-          <span className="text-[48px]">*</span> Web Development{" "}
-          <span className="text-[48px]">*</span>{" "}
-        </h1>
-        <h1 className="text-black text-[24px] font-bold flex items-center gap-16">
-          {" "}
-          Digital Marketing <span className="text-[48px]">*</span>{" "}
-        </h1>
-        <h1 className="text-black text-[24px] font-bold flex items-center gap-16">
-          {" "}
-          Product Design <span className="text-[48px]">*</span>{" "}
-        </h1>
-        <h1 className="text-black text-[24px] font-bold flex items-center gap-16">
-          {" "}
-          Mobile Solution <span className="text-[48px]">*</span>{" "}
-        </h1>
+
+      <div className="scroll-parent  hidden lg:block   bg-gradient-to-r from-[#019267] to-[#06E19D] overflow-x-hidden">
+
+        <div className="scroll-element primary hidden lg:flex px-20 py-6 flex-row w-full justify-between">
+
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            <span className="text-[48px]">*</span> Web Development{" "}
+            <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Digital Marketing <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Product Design <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Mobile Solution <span className="text-[48px]">*</span>{" "}
+          </h1>
+
+        </div>
+        <div className="scroll-element secondary hidden lg:flex px-20 py-6 flex-row w-full justify-between">
+
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            <span className="text-[48px]">*</span> Web Development{" "}
+            <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Digital Marketing <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Product Design <span className="text-[48px]">*</span>{" "}
+          </h1>
+          <h1 className=" text-black text-[24px] font-bold flex items-center gap-16">
+            {" "}
+            Mobile Solution <span className="text-[48px]">*</span>{" "}
+          </h1>
+
+        </div>
       </div>
-      <div className="flex flex-col justify-center items-center md:w-[750px] w-[350px] lg:w-full font-Poppins gap-20">
-        <h1 className="font-bold text-[48px] relative my-12">
+
+      <div className="flex flex-col justify-center  md:w-[750px] w-[350px] lg:w-full font-Poppins gap-20">
+        <h1 className="font-bold text-[48px] relative mt-28 my-2 w-fit absolute left-[50%] translate-x-[-50%]">
           Our Services
           <hr className="border-[3px] border-[#06E19D] w-[40%] mb-10 rounded-full  absolute  left-48 sliding-hr" />
         </h1>
 
-        <div className=" animated-service flex flex-row justify-between py-12 px-2 md:px-12 lg:px-24 w-[330px] md:w-[700px] lg:w-[1278px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
+        <div className=" animated-service flex flex-row justify-between py-12 px-2 md:px-12 lg:px-24 lg:pl-48 w-[330px] md:w-[700px] lg:w-[1400px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
           <div className="flex flex-col gap-2 ">
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Website & App development
@@ -41,8 +70,8 @@ const Service = () => {
               We build intuitive and engaging web and mobile applications that
               deliver exceptional user experiences and drive results.
             </p>
-            <button className="flex  text-black py-2 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
-              <Link to="/services" className="flex gap-2 ">
+            <button className="flex  text-black py-2 mt-4 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
+              <Link to="/services" className="flex gap-2 items-center">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
               </Link>
@@ -55,17 +84,17 @@ const Service = () => {
           />
         </div>
 
-        <div className="animated-service1  flex flex-row justify-between  px-2 md:px-12 lg:px-24 w-[330px] md:w-[700px] lg:w-[1278px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
+        <div className="animated-service1  flex flex-row justify-between  px-2 md:px-12 lg:px-24 lg:pl-48 w-[330px] md:w-[700px] lg:w-[1400px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
           <div className="flex flex-col gap-2 mt-12">
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
-              Branding 
+              Branding
             </span>
             <p className="w-[300px] md:w-[605px] h-[71px] shrink-0 text-black text-sm md:text-xl  not-italic font-normal md:leading-[34px]">
               We develop compelling brand identities that capture the essence of
               your business and resonate with your target audience.
             </p>
-            <button className="flex  text-black py-2 items-center hover:cursor-pointer hover:text-[#019267]">
-              <Link to="/services" className="flex gap-2 ">
+            <button className="flex  text-black py-2 mt-4 items-center gap-2 hover:cursor-pointer hover:text-[#019267]">
+              <Link to="/services" className="flex gap-2 items-center">
                 {" "}
                 Learn More <Ai.AiOutlineArrowRight />
               </Link>
@@ -78,7 +107,7 @@ const Service = () => {
           />
         </div>
 
-        <div className="animated-service2  flex flex-row justify-between px-2 md:px-12 lg:px-24 w-[330px] md:w-[700px] lg:w-[1278px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
+        <div className="animated-service2  flex flex-row justify-between px-2 md:px-12 lg:px-24 lg:pl-48 w-[330px] md:w-[700px] lg:w-[1400px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
           <div className="flex flex-col gap-2 mt-12">
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               Digital Marketing
@@ -101,7 +130,7 @@ const Service = () => {
           />
         </div>
 
-        <div className="animated-service3  flex flex-row justify-between px-2 md:px-12 lg:px-24 w-[330px] md:w-[700px] lg:w-[1278px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
+        <div className="animated-service3  flex flex-row justify-between px-2 md:px-12 lg:px-24 lg:pl-48 w-[330px] md:w-[700px] lg:w-[1400px] h-[251px] shrink-0 bg-[#F4FFFB] rounded-r-full">
           <div className="flex flex-col gap-2 mt-12 ">
             <span className="w-[347px] h-[34px] shrink-0 text-[#019267] text-lg md:text-2xl not-italic font-medium leading-[normal]">
               B2B Marketing
