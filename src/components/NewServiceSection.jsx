@@ -9,14 +9,14 @@ const NewServiceSection = () => {
     const [photos, setPhotos] = useState([service1 , service2 , service3 , service4]);
     const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //       setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
-    //     }, 2000);
+    useEffect(() => {
+        const interval = setInterval(() => {
+          setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
+        }, 2000);
     
-    //     // Clear the interval when the component unmounts
-    //     return () => clearInterval(interval);
-    //   }, [photos]);
+        // Clear the interval when the component unmounts
+        return () => clearInterval(interval);
+      }, [photos]);
 
   return (
     <div className="w-5/6 mx-auto mt-20">
@@ -87,7 +87,7 @@ const NewServiceSection = () => {
     
       </div>
       
-  
+    
   );
 };
 
