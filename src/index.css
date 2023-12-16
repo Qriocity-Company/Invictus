@@ -8,6 +8,8 @@ body {
   background-color: #00251a;
   color: white;
   overflow-x: hidden;
+  width: 100%;
+ 
 }
 
 @keyframes slideIn {
