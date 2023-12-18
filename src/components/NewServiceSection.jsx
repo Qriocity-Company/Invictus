@@ -14,7 +14,7 @@ const NewServiceSection = () => {
           setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
         }, 2000);
     
-        // Clear the interval when the component unmounts
+      
         return () => clearInterval(interval);
       }, [photos]);
 
@@ -24,9 +24,9 @@ const NewServiceSection = () => {
           Our Services
           <hr className="border-[3px] border-[#06E19D] w-[40%] mb-10 rounded-full  absolute  left-48 sliding-hr" />
         </h1>
-      <div className="flex  md:flex-row flex-col-reverse  lg:gap-20 md:gap-10 gap-5    justify-center items-center ">
+      <div className="flex  md:flex-row flex-col-reverse  lg:gap-20 gap-10   justify-center items-center ">
         {currentPhotoIndex === 0 && <div className="max-w-lg ">
-          <h1 className="text-[30px] font-[700]">Digital Marketing</h1>
+          <h1 className="md:text-[30px] text-xl font-[700]">Digital Marketing</h1>
           <ul className="list-disc" >
             <li>Social Media Marketing</li>
             <li>Performance Marketing</li>
@@ -41,7 +41,7 @@ const NewServiceSection = () => {
           </ul>
         </div>}
         {currentPhotoIndex === 1 &&    <div className="max-w-lg ">
-          <h1 className="text-[30px] font-[700]">Branding & Advertising</h1>
+          <h1 className="md:text-[30px] text-xl font-[700]">Branding & Advertising</h1>
           <ul className="list-disc" >
             <li>Brand Strategy & Messaging</li>
             <li>Logo Design</li>
@@ -53,7 +53,7 @@ const NewServiceSection = () => {
           </ul>
         </div>}
         {currentPhotoIndex === 2 &&   <div className="max-w-lg ">
-          <h1 className="text-[30px] font-[700]">Website & App development</h1>
+          <h1 className="md:text-[30px] text-xl font-[700]">Website & App development</h1>
           <ul className="list-disc" >
             <li>Website Design & Development</li>
             <li>Shopify Store Development</li>
@@ -65,7 +65,7 @@ const NewServiceSection = () => {
           </ul>
         </div>}
         {currentPhotoIndex === 3 &&      <div className="max-w-lg ">
-          <h1 className="text-[30px] font-[700]">B2B Marketing</h1>
+          <h1 className="md:text-[30px] text-xl font-[700]">B2B Marketing</h1>
           <ul className="list-disc" >
             <li>Social Media Marketing</li>
             <li>Performance Marketing</li>
@@ -80,7 +80,7 @@ const NewServiceSection = () => {
           </ul>
         </div>}
         <div className="max-w-lg ">
-          <img src={photos[currentPhotoIndex]}  className="lg:w-full md:w-5/6 "/>
+          <img src={photos[currentPhotoIndex]} alt="img" className="lg:w-full md:w-5/6 "/>
         </div>
       </div>
      
