@@ -22,7 +22,7 @@ const BlogItem = () => {
       >
         back <IoArrowBackCircle className="md:text-4xl text-2xl" />{" "}
       </Link>
-      <div className="md:hidden max-w-md mx-auto mt-4 p-4 border rounded-lg shadow-lg">
+      <div className="md:hidden max-w-md mx-auto mt-4 p-4 border border-[#93e78a]  rounded-lg shadow-lg">
         <img
           src={`${URL}/${blog.imageURL}`}
           alt={blog.title}
