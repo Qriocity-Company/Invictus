@@ -1,6 +1,6 @@
 import React, {useState ,  useEffect } from 'react'
 import darkbg from "../assets/hero/darkbg.png";
-import bulb from "../assets/hero/brightbulb.png";
+import bulb from "../assets/hero/brightBulb.png";
 const NewHero = () => {
     const [first, setFirst] = useState(false);
     const [second, setSecond] = useState(false);
