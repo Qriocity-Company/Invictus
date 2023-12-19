@@ -35,7 +35,7 @@ const Footer = () => {
 
 
 
-      <div className="flex lg:flex-row flex-col gap-[1rem] lg:gap-0 justify-between items-center px-16 md:mt-0 mt-40 mb-8 pt-20 md:pb-16 pb-8">
+      <div className="w-5/6 mx-auto flex lg:flex-row flex-col gap-[1rem] lg:gap-0 justify-between items-center px-16 md:mt-0 mt-40 mb-8 pt-20 md:pb-16 pb-8">
         <img src={logo} alt="" className=" object-cover" />
 
         <div className="hidden lg:flex flex-row gap-20 justify-between items-center text-white font-Poppins">
