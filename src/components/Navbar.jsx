@@ -30,6 +30,9 @@ const Navbar = () => {
         <Link to="/services" className={isRouteActive("/services")}>
           Our Services
         </Link>
+        <Link to="/blogs" className={isRouteActive("/blogs")}>
+            Blogs
+          </Link>
         <Link to="/contact" className={isRouteActive("/contact")}>
           Contact Us
         </Link>
@@ -59,6 +62,12 @@ const Navbar = () => {
           
           <Link to="/services" className={isRouteActive("/services")} onClick={toggleMenu}>
             Our Services
+          </Link>
+          <Link to="/blogs" className={isRouteActive("/blogs")}
+            onClick={() => {
+                toggleMenu();
+              }}>
+            Blogs
           </Link>
           <Link to="/contact" className={isRouteActive("/contact")} onClick={toggleMenu}>
             Contact Us

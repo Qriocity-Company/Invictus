@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import OurServices from "./pages/OurServices";
 import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
+import Blog from "./pages/Blog";
+import BlogItem from "./components/BlogItem";
 function App() {
   return (
     <Router>
@@ -17,6 +19,8 @@ function App() {
           <Route path="services" element={<OurServices />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="/blogs" element={<Blog />} />
+          <Route path="/blogs/:blog" element={<BlogItem />} />
         </Routes>
         <Footer />
       </div>
