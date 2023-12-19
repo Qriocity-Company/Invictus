@@ -29,7 +29,7 @@ const BlogItem = () => {
           className="mb-4 w-full  rounded-lg self-center"
         />
 
-        <h2 className="text-2xl font-bold mb-2">{blog.title}</h2>
+        <h2 className="text-2xl font-bold mb-2 text-[#45b339]">{blog.title}</h2>
         <p className="text-white mb-2">{blog.caption}</p>
         <p className="text-white">{blog.description}</p>
         <p className="text-white mt-3 ">
@@ -42,7 +42,7 @@ const BlogItem = () => {
           </p>
       </div>
       <div className=" p-5 md:flex flex-col hidden gap-5 border border-[#93e78a] rounded-lg shadow-lg items-center">
-       <h2 className="text-2xl text-start w-full text-white font-bold ">{blog.title}</h2>
+       <h2 className="text-2xl text-start w-full text-[#45b339] font-bold ">{blog.title}</h2>
        <p className="text-white text-start w-full italic mb-3">{blog.caption}</p>
         <img src={`${URL}/${blog.imageURL}`} className="mb-4  max-h-[500px] rounded-lg self-center" />
 
