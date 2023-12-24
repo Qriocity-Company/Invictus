@@ -2,35 +2,55 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const URL = "https://crm-backend-o6sb.onrender.com";
 const Blog = () => {
   const navigate = useNavigate();
   const [blogs, setBlogs] = useState([]);
-  const[category, setCategory]= useState("Invictus");
- const [all ,setAll] = useState("Invictus");
-  useEffect(() => {
-    axios
-      .get(`${URL}/blog/company/${all}`)
-      .then((res) => {
-        console.log(res.data);
-        setBlogs(res.data);
-      })
-      .catch((err) => console.log(err));
-  }, [all]);
+  const [allcategory ,setAllCategory] = useState([]);
+  const[category, setCategory]= useState("");
+  const[selection , setSelection] = useState("All");
 
   useEffect(() => {
     axios
-      .get(`${URL}/blog/company/${category}`)
+      .get(`${URL}/blog/category/Invictus`)
       .then((res) => {
         console.log(res.data);
-        setBlogs(res.data);
+        setAllCategory(res.data);
+      })
+      .catch((err) => console.log(err));
+
+      fetchAllBlogs();
+  }, []);
+
+  useEffect(() => {
+    axios
+      .get(`${URL}/blog/company/Invictus/${category}`)
+      .then((res) => {
+        console.log(res.data);
+        if(res.data.length>=1)
+          setBlogs(res.data);
+        else
+          toast.warning("No blogs Found");
       })
       .catch((err) => console.log(err));
   }, [category]);
 
+  const fetchAllBlogs =()=>{
+   
+    axios.get(`${URL}/blog/company/Invictus`).then((res)=>{
+      console.log(res.data);
+      if(res.data.length>=1)
+        setBlogs(res.data);
+      else
+        toast.warning("No blogs Found");
+    }).catch((err)=> console.log(err));
+  }
+
   return (
-    <div className="w-full mx-auto max-w-[1440px]  mt-[100px] mb-10 font-Poppins px-4 md:p-0">
-      <div className="mt-20 self-start flex items-start flex-col">
+    <div className="w-full mx-auto max-w-[1440px] mt-[100px] mb-10 font-Poppins px-4 md:px-0 h-screen ">
+      <div className=" self-start flex items-start flex-col">
         <h1 className="pb-1 font-bold md:text-5xl text-2xl md:mb-5 text-white ">
           Blogs
         </h1>
@@ -38,110 +58,55 @@ const Blog = () => {
           <div>Uncover the Secrets: Journey into Our Blog</div>
         </div>
       </div>
-
-      <div className="flex flex-col md:flex-row justify-start w-full mt-0 md:mt-10  z-10 ">
-        <div className="md:flex-[3] flex flex-col justify-start mt-10 mb-10 md:mb-0 ">
+      <div className="flex flex-col md:flex-row justify-start  mt-0 md:mt-10  z-10 ">
+        <div className="md:flex-[0.25] flex flex-col justify-start mt-10 mb-10 md:mb-0 ">
           <h1 className="font-semibold text-3xl text-white pb-4 ">
             Categories
           </h1>
           <span
             className={
-              category != "Invictus"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white  mb-1 text-teal-300 font-medium cursor-pointer"
+              selection != "All"
+                ? "text-[20px] text-[#45b339] mb-1 hover:text-teal-300 font-medium cursor-pointer"
+                : "text-[20px] hover:text-[#45b339]  mb-1 text-teal-300 font-medium cursor-pointer"
             }
             onClick={() => {
-              setAll("Invictus");
+              fetchAllBlogs();
+              setSelection("All");
             }}
           >
             All
           </span>
-          <span
+          {allcategory.map((m,i)=>{
+            return (
+              <span key={i}
             className={
-              category != "software-development"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white mb-1 text-teal-300 font-medium cursor-pointer"
+              selection != m.category
+                ? "text-[20px] text-[#45b339] mb-1 hover:text-teal-300 font-medium cursor-pointer"
+                : "text-[20px] hover:text-[#45b339] mb-1 text-teal-300 font-medium cursor-pointer"
             }
             onClick={() => {
-              setCategory("software-development");
+              setCategory(m._id);
+              setSelection(m.category);
             }}
           >
-            Software Development
+            {m.category}
           </span>
-          <span
-            className={
-              category != "app-development"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white mb-1 text-teal-300 font-medium cursor-pointer"
-            }
-            onClick={() => {
-              setCategory("app-development");
-            }}
-          >
-            App Development
-          </span>
-          <span
-            className={
-              category != "ui-ux"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white mb-1 text-teal-300 font-medium cursor-pointer"
-            }
-            onClick={() => {
-              setCategory("ui-ux");
-            }}
-          >
-            UI/UX Design
-          </span>
-          <span
-            className={
-              category != "ai-ml"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white mb-1 text-teal-300 font-medium cursor-pointer"
-            }
-            onClick={() => {
-              setCategory("ai-ml");
-            }}
-          >
-            AI/ML Solutions
-          </span>
-          <span
-            className={
-              category != "landing-page"
-                ? "text-[20px] text-[#45b339] mb-1 hover:text-white font-medium cursor-pointer"
-                : "text-[20px] hover:text-white mb-1 text-teal-300 font-medium cursor-pointer"
-            }
-            onClick={() => {
-              setCategory("landing-page");
-            }}
-          >
-            Landing Page Development
-          </span>
+            )
+          })}
+          
+         
         </div>
-
-        <div className="grid grid-flow-row  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+        <div className="grid grid-flow-row grid-cols-1 flex-1 gap-10">
           {blogs.map((b, index) => {
             return (
               <Link
                 key={index}
                 to={`/blogs/${index}`}
                 state={{ b }}
-                className="flex flex-col  justify-start items-start mb-4 bg-white  rounded-xl "
+                className="flex flex-col px-8 justify-center items-start bg-opacity-5 drop-shadow-xl text-white bg-white min-h-[100px] shadow-green-500 shadow-md w-full rounded-xl "
               >
-                <img
-                  src={`${URL}/${b.imageURL}`}
-                  alt={b.title}
-                  className="mb-4 w-[350px]  h-[250px] rounded-[10px] "
-                />
-
-                <h2 className="md:text-2xl font-bold mb-2 px-4">{b.title}</h2>
-                <p className="text-gray-600 mb-2 px-4">{b.caption}</p>
-                <span className="text-center px-4 mb-4 text-gray-800 text-sm font-medium">
-                {new Date(b.createdAt).toLocaleString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-                </span>
+                <h1 className="text-2xl font-bold mb-2">{b.title}</h1>
+                <span className="text-green-500">Read More</span>
               </Link>
             );
           })}

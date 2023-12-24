@@ -8,6 +8,8 @@ import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import BlogItem from "./components/BlogItem";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <Router>
@@ -22,6 +24,18 @@ function App() {
           <Route path="/blogs" element={<Blog />} />
           <Route path="/blogs/:blog" element={<BlogItem />} />
         </Routes>
+        <ToastContainer
+          position="top-right"
+          autoClose={1500}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
         <Footer />
       </div>
     </Router>
